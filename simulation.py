@@ -104,3 +104,6 @@ def main():
         simulateOneServer(testfile)
     else:
         simulateManyServers(testfile)
+
+if __name__ == '__main__':
+    main()
